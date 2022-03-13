@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+
 public class JCalc {
     public static void main(String[] args) {
         System.out.println("Welcome to our calculator!");
@@ -10,7 +11,7 @@ public class JCalc {
         System.out.print("Enter the second number: ");
         double input2 = Double.parseDouble(scanner.nextLine());
 
-        double sum = input1 + input2;
+        double sum = CalcHelper.add(input1, input2);
         System.out.println(input1 + " + " + input2 + " = " + sum);
     }
 }
