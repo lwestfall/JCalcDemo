@@ -13,5 +13,8 @@ public class JCalc {
 
         double sum = CalcHelper.add(input1, input2);
         System.out.println(input1 + " + " + input2 + " = " + sum);
+
+        double diff = CalcHelper.subtract(input1, input2);
+        System.out.println(input1 + " - " + input2 + " = " + diff);
     }
 }
