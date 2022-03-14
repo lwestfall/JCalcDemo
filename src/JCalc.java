@@ -16,5 +16,8 @@ public class JCalc {
 
         double diff = CalcHelper.subtract(input1, input2);
         System.out.println(input1 + " - " + input2 + " = " + diff);
+
+        double mult = CalcHelper.multiply(input1, input2);
+        System.out.println(input1 + " * " + input2 + " = " + mult);
     }
 }
